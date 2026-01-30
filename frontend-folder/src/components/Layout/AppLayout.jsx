@@ -4,9 +4,11 @@ import Footer from "../UI/Footer";
 
 const AppLayout = () => (
   <>
-    <Header />
-    <Outlet />
-    <Footer />
+    <div className="container-fluid">
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
   </>
 );
 

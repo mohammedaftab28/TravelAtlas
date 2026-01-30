@@ -1,7 +1,7 @@
-const Favourites = () => (
+const Explore = () => (
   <>
-    <h1>Favourites Page</h1>
+    <h1>Explore Page</h1>
   </>
 );
 
-export default Favourites; // Yeh line miss ho rahi hai!
+export default Explore;
